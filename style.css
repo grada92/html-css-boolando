@@ -48,9 +48,12 @@ i{
 .containermain {
     display: flex;
     flex-wrap: wrap;
-    background-color: red
+    background-color: red;
+    justify-content: center;
+    padding: 0 300px;
 }
 
 .card {
-    padding: 50px;
+    width: calc(100%/ 3 - 40px);
+    flex-shrink: 0;
 }
