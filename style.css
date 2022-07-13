@@ -129,10 +129,27 @@ width: 100%;
 line-height: 40px;
 background-color: #1a1a1a;
 color: white;
+position: relative;
+padding: 20px;
 }
 
 .sectionfooter1 {
- width: 1200px;
+ margin: 0 150px;
 
 }
+
+.navfooter {
+    margin: -10px;
+}
     
+.socialfooter {
+position: absolute;
+right: 150px;
+top: 20px;
+line-height: 30px;
+text-align: center;
+}
+
+}
+
+
