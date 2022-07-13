@@ -10,13 +10,35 @@ body {
     font-family: sans-serif;
 }
 
+
 .flex {
 display: flex;
-background-color: red;
+background-color: #ff6900;
 height: 70px;
 }
 
+.header {
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+a {
+    padding: 10px;
+color: white;
+text-decoration: none;
+}
 
 #logo {
     height: 50px;
+}
+
+i{
+    color: white;
+    padding: 10px;
+}
+
+.menu-dx {
+    gap: 50px;
 }
