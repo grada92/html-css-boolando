@@ -54,13 +54,12 @@ i{
 
 .card {
     width: calc(100%/ 3 - 40px);
-    flex-shrink: 0;
     background-color: #f6f6f6;
     margin: 20px 20px;
     position: relative;
 }
 
-.card img {
+.card .main-img {
     width: 100%;
 }
 
@@ -150,6 +149,19 @@ line-height: 30px;
 text-align: center;
 }
 
+
+
+.card:hover .second-img {
+ opacity: 1;
 }
 
+.second-img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+}
 
+.card2 .second-img {
+    width: 100%;
+}
