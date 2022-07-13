@@ -14,12 +14,12 @@ body {
 /* Content */
 .flex {
 display: flex;
-background-color: #ff6900;
-height: 70px;
 }
 
 .header {
     justify-content: space-around;
+    background-color: #ff6900;
+    height: 50px;
     margin: 0 auto;
     align-items: center;
     width: 100%;
@@ -33,7 +33,7 @@ text-decoration: none;
 }
 
 #logo {
-    height: 50px;
+    height: 30px;
 }
 
 i{
@@ -50,7 +50,7 @@ i{
     flex-wrap: wrap;
     background-color: red;
     justify-content: center;
-    padding: 50px 300px;
+    padding: 50px 150px;
 }
 
 .card {
@@ -63,4 +63,12 @@ i{
 
 .card img {
     width: 100%;
+}
+
+.price {
+    gap: 10px;
+}
+
+#redfont {
+    color: red;
 }
