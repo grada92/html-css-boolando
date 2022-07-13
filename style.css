@@ -123,4 +123,16 @@ i{
     position: absolute;
     bottom: 100px;
 }
+
+.totalfooter {
+width: 100%;
+line-height: 40px;
+background-color: #1a1a1a;
+color: white;
+}
+
+.sectionfooter1 {
+ width: 1200px;
+ justify-content: flex-start;
+}
     
