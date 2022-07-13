@@ -22,11 +22,12 @@ height: 70px;
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
+    width: 100%;
 
 }
 
 a {
-    padding: 10px;
+padding: 10px;
 color: white;
 text-decoration: none;
 }
@@ -42,4 +43,14 @@ i{
 
 .menu-dx {
     gap: 50px;
+}
+
+.containermain {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red
+}
+
+.card {
+    padding: 50px;
 }
