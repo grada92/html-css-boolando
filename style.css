@@ -6,3 +6,19 @@ padding: 0px;
 box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+.flex {
+display: flex;
+background-color: red;
+height: 70px;
+}
+
+.nav-menu {
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+
+}
