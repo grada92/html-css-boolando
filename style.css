@@ -76,3 +76,15 @@ i{
 .card h2 {
     font-size: 15px;
 }
+
+.heart {
+    color: black;
+    position: absolute;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+}
